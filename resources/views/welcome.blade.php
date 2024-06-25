@@ -1,7 +1,548 @@
 @extends('layouts.frontend')
 
+@section('content')
+    <!-- hero start -->
+    <section class="hero hero-style-one pos-rel">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero__content style-2">
+                        <h1 class="title wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".5s">Enhance your Customer
+                            Service Efficiency with <span class="shape">ChatBot</span> Automation</h1>
+                        <p class="wow fadeInUp mb-45" data-wow-delay="200ms" data-wow-duration=".5s">An all-in-one platform
+                            to build and launch conversational <br> chatbots without coding.</p>
+                        <div class="hero__form wow fadeInUp" data-wow-delay="400ms" data-wow-duration=".5s">
+                            <form action="#!">
+                                <input type="text" placeholder="techaiinfo@gmail.com">
+                                <button class="thm-btn thm-btn--gradient">Get Started Free</button>
+                            </form>
+                        </div>
+                        <ul class="hero__list ul_li wow fadeInUp" data-wow-delay="600ms" data-wow-duration=".5s">
+                            <li><i class="far fa-check"></i>Sign up for free</li>
+                            <li><i class="far fa-check"></i>Free 14-day trial</li>
+                            <li><i class="far fa-check"></i>No credit card required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__img-bg">
+                <div class="hero__image pos-rel">
+                    <img src="{{ asset('frontend/assets/img/hero/hero_img-2.png') }}" alt="">
+                    <div class="hero__chat-list">
+                        <div class="chat-item chat-item--1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration=".7s">
+                            <img src="{{ asset('frontend/assets/img/hero/chat_01.png') }}" alt="">
+                        </div>
+                        <div class="chat-item chat-item--2 wow fadeInRight" data-wow-delay="300ms" data-wow-duration=".7s">
+                            <img src="{{ asset('frontend/assets/img/hero/chat_02.png') }}" alt="">
+                        </div>
+                        <div class="chat-item chat-item--3 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration=".7s">
+                            <img src="{{ asset('frontend/assets/img/hero/chat_03.png') }}" alt="">
+                        </div>
+                        <div class="chat-item chat-item--4 wow fadeInRight" data-wow-delay="500ms" data-wow-duration=".7s">
+                            <img src="{{ asset('frontend/assets/img/hero/chat_04.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__shape2">
+            <div class="shape shape--1" data-parallax='{"y" : 50}'>
+                <img src="{{ asset('frontend/assets/img/shape/h_shape3.png') }}" alt="">
+            </div>
+            <div class="shape shape--2" data-parallax='{"y" : 70}'>
+                <img src="{{ asset('frontend/assets/img/shape/h_shape4.png') }}" alt="">
+            </div>
+            <div class="shape shape--3" data-parallax='{"x" : 90}'>
+                <img src="{{ asset('frontend/assets/img/shape/h_shape5.png') }}" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- hero start -->
 
+    <!-- brand start -->
+    <section class="brand brand__pb pos-rel dark-bg pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 offset-lg-5">
+                    <div class="brand__area">
+                        <div class="sec-title sec-title--white mb-40">
+                            <h2 class="sec-title__title">Empowering companies to stand out with <span
+                                    class="shape">customer</span> experience</h2>
+                        </div>
+                        <div class="brand__wrap ul_li">
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_01.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_01.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_02.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_02.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_03.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_03.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_04.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_04.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_05.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_05.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_06.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_06.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_07.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_07.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_08.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_08.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                            <div class="brand__item">
+                                <a href="#!">
+                                    <img src="{{ asset('frontend/assets/img/brand/b_09.png') }}" alt="">
+                                    <img src="{{ asset('frontend/assets/img/brand/bh_09.png') }}" alt="">
+                                </a>
+                                <span class="dot dot--1"></span>
+                                <span class="dot dot--2"></span>
+                                <span class="dot dot--3"></span>
+                                <span class="dot dot--4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand__shape">
+            <img src="{{ asset('frontend/assets/img/shape/b_shape.png') }}" alt="">
+        </div>
+        <div class="brand__img">
+            <div class="image pos-rel">
+                <img src="{{ asset('frontend/assets/img/brand/brand_img.png') }}" alt="">
+                <div class="brand__animation-img">
+                    <div class="img img--1">
+                        <img src="{{ asset('frontend/assets/img/brand/brand_img2.png') }}" alt="">
+                    </div>
+                    <div class="img img--2">
+                        <img src="{{ asset('frontend/assets/img/brand/brand_img3.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand end -->
 
+    <!-- feature start -->
+    <section id="feature" class="feature pos-rel">
+        <div class="container">
+            <div class="feature__wrapper">
+                <div class="row mt-none-20 justify-content-center">
+                    <div class="col-lg-4 col-md-6 mt-20">
+                        <div class="feature__single">
+                            <div class="icon">
+                                <img src="{{ asset('frontend/assets/img/icon/f_01.png') }}" alt="">
+                            </div>
+                            <h3>Power up your marketing</h3>
+                            <ul class="feature__list mb-40">
+                                <li><i class="far fa-check"></i>Personalize your customer <br> experience</li>
+                                <li><i class="far fa-check"></i>Engage prospects and <br> customers across multiple <br>
+                                    communication channels</li>
+                            </ul>
+                            <a href="#!"><i class="far fa-arrow-right"></i>Benefit of Marketing</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-20">
+                        <div class="feature__single">
+                            <div class="icon">
+                                <img src="{{ asset('frontend/assets/img/icon/f_02.png') }}" alt="">
+                            </div>
+                            <h3>Supercharged your sales</h3>
+                            <ul class="feature__list mb-40">
+                                <li><i class="far fa-check"></i>Scale your efforts without <br> increasing employee <br>
+                                    handout</li>
+                                <li><i class="far fa-check"></i>Generate and qualify leads automatically</li>
+                            </ul>
+                            <a href="#!"><i class="far fa-arrow-right"></i>Benefit of Sales</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-20">
+                        <div class="feature__single">
+                            <div class="icon">
+                                <img src="{{ asset('frontend/assets/img/icon/f_03.png') }}" alt="">
+                            </div>
+                            <h3>Optimize your supports</h3>
+                            <ul class="feature__list mb-40">
+                                <li><i class="far fa-check"></i>Engage prospects and
+                                    customers across multiple
+                                    communication</li>
+                                <li><i class="far fa-check"></i>Personalize your customer
+                                    experience</li>
+                            </ul>
+                            <a href="#!"><i class="far fa-arrow-right"></i>Benefits of Supports</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature__shape">
+            <div class="shape shape--1" data-parallax='{"y" : 50}'>
+                <img class="wow fadeInLeft" src="{{ asset('frontend/assets/img/shape/fs_01.png') }}" alt="">
+            </div>
+            <div class="shape shape--2" data-parallax='{"x" : 70}'>
+                <img class="wow fadeInRight" src="{{ asset('frontend/assets/img/shape/fs_03.png') }}" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- feature end -->
+
+    <!-- feature start -->
+    <section id="process" class="feature pos-rel">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6">
+                    <div class="pb-105">
+                        <div class="sec-title mb-60">
+                            <h2 class="sec-title__title">Create customer experiences <span class="shape">that
+                                    sell.</span></h2>
+                        </div>
+                        <ul class="feature__content-list list-unstyled">
+                            <li>
+                                <h3>Carefully designed</h3>
+                                <p>Reach out to visitors proactively using personalized chatbot greetings. Turn website
+                                    visits into sales opportunities.</p>
+                            </li>
+                            <li>
+                                <h3>Nurture</h3>
+                                <p>Lead customers to a sale through recommended purchases and tailored offerings.</p>
+                            </li>
+                            <li>
+                                <h3>Qualify</h3>
+                                <p>Generate and qualify prospects automatically. Transfer high-intent leads to your sales
+                                    reps in real time to shorten the sales cycle.</p>
+                            </li>
+                            <li>
+                                <h3>Convert</h3>
+                                <p>Let customers purchase, order, or schedule meetings easily using a smart chatbot.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature__img">
+                        <img src="{{ asset('frontend/assets/img/feature/img_01.png') }}" alt="">
+                        <div class="feature__img-ss">
+                            <div class="ss ss--1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".7s">
+                                <img src="{{ asset('frontend/assets/img/feature/ss_01.png') }}" alt="">
+                            </div>
+                            <div class="ss ss--2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration=".7s">
+                                <img src="{{ asset('frontend/assets/img/feature/ss_02.png') }}" alt="">
+                            </div>
+                            <div class="ss ss--3 wow fadeInUp" data-wow-delay="400ms" data-wow-duration=".7s">
+                                <img src="{{ asset('frontend/assets/img/feature/ss_03.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__img-shape">
+                            <div class="shape shape--1" data-parallax='{"y" : 80}'>
+                                <img src="{{ asset('frontend/assets/img/shape/fs_01.png') }}" alt="">
+                            </div>
+                            <div class="shape shape--2" data-parallax='{"x" : 80}'>
+                                <img src="{{ asset('frontend/assets/img/shape/fs_02.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature end -->
+
+    <!-- intergation start -->
+    {{-- <section id="intergation" class="intergation intergation__bg dark-bg pt-125 pb-140">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 mt-20">
+                    <div class="sec-title sec-title--white">
+                        <h2 class="sec-title__title mb-30">Keep conversations <br> going across <br> channels</h2>
+                        <p>Write 10x faster, engage your audience, & never struggle <br> with the blank page again.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_01.png') }}" alt="">
+                        </div>
+                        <h3>Website</h3>
+                        <p>Reach out to visitors proactively to boost website engagement.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_02.png') }}" alt="">
+                        </div>
+                        <h3>Live Chat</h3>
+                        <p>Support customers 24/7 to improve your customer satisfaction.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_03.png') }}" alt="">
+                        </div>
+                        <h3>Messenger</h3>
+                        <p>Connect with Messenger users in real time to grow your audience.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_04.png') }}" alt="">
+                        </div>
+                        <h3>Slack</h3>
+                        <p>Streamline your office workflow to improve team productivity.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_05.png') }}" alt="">
+                        </div>
+                        <h3>Dropbox</h3>
+                        <p>Reach out to visitors proactively to boost website engagement.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-20">
+                    <div class="intergation__item text-center">
+                        <div class="icon">
+                            <img src="{{ asset('frontend/assets/img/icon/i_06.png') }}" alt="">
+                        </div>
+                        <h3>Mailchimp</h3>
+                        <p>Reach out to visitors proactively to boost website engagement.</p>
+                        <a href="#!"><i class="far fa-arrow-right"></i>More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- intergation end -->
+
+    <!-- testimonial start -->
+    <section class="testimonial testimonial__gr-bg pt-140 pb-105">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sec-title mb-50">
+                        <h2 class="sec-title__title">Real Stories from Satisfied Customers</h2>
+                    </div>
+                    <div class="template__nav testimonial__button mb-10">
+                        <div class="template-nav-item tm-button-prev"><i class="far fa-arrow-left"></i></div>
+                        <div class="template-nav-item tm-button-next"><i class="far fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="testimonial__active swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__single swiper-slide">
+                                <div class="rating ul_li_between mb-50">
+                                    <span>5 - Star Rating</span>
+                                    <img src="{{ asset('frontend/assets/img/icon/rating.png') }}" alt="">
+                                </div>
+                                <p>"You've saved our business! If you aren't sure, always go for Chat bot. I will let my mum
+                                    know about this, she could really make use of Chat bot! I couldn't have asked for more
+                                    than this I wish I would have thought of it first. "</p>
+                                <div class="author ul_li">
+                                    <div class="avatar">
+                                        <img src="{{ asset('frontend/assets/img/avatar/tm_avatar1.jpg') }}"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Florida Campain</h4>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <img src="{{ asset('frontend/assets/img/icon/quote_icon.svg') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="testimonial__single swiper-slide">
+                                <div class="rating ul_li_between mb-50">
+                                    <span>5 - Star Rating</span>
+                                    <img src="{{ asset('frontend/assets/img/icon/rating.png') }}" alt="">
+                                </div>
+                                <p>"Man, this thing is getting better and better as I learn more about it. It's really
+                                    wonderful. If you aren't sure, always go for Chat bot. I am really satisfied with my
+                                    Chat botI wish I would have thought of it first. Just what I was looking for.</p>
+                                <div class="author ul_li">
+                                    <div class="avatar">
+                                        <img src="{{ asset('frontend/assets/img/avatar/tm_avatar2.jpg') }}"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Florida Campain</h4>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <img src="{{ asset('frontend/assets/img/icon/quote_icon.svg') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="testimonial__single swiper-slide">
+                                <div class="rating ul_li_between mb-50">
+                                    <span>5 - Star Rating</span>
+                                    <img src="{{ asset('frontend/assets/img/icon/rating.png') }}" alt="">
+                                </div>
+                                <p>"You've saved our business! If you aren't sure, always go for Chat bot. I will let my mum
+                                    know about this, she could really make use of Chat bot! I couldn't have asked for more
+                                    than this I wish I would have thought of it first. "</p>
+                                <div class="author ul_li">
+                                    <div class="avatar">
+                                        <img src="{{ asset('frontend/assets/img/avatar/tm_avatar1.jpg') }}"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Florida Campain</h4>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <img src="{{ asset('frontend/assets/img/icon/quote_icon.svg') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- cta start -->
+    <section class="cta pos-rel pb-140">
+        <div class="container">
+            <div class="row mt-none-20">
+                <div class="col-xl-9 col-lg-8 mt-20">
+                    <div class="sec-title">
+                        <h2 class="sec-title__title mb-25">Get Instant Assistance with Our AI- <br>Powered Chatbot</h2>
+                        <p>Write 10x faster, engage your audience, & never struggle with <br> the blank page again.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 mt-20">
+                    <div class="cta__btn text-lg-end mt-10">
+                        <a class="thm-btn thm-btn--gradient br-5" href="#!">Start Chatting Now</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="footer__top cta-list ul_li_between mt-35">
+                <li><i class="far fa-check"></i>No credit card required</li>
+                <li><i class="far fa-check"></i>2,000 free words per month</li>
+                <li><i class="far fa-check"></i>90+ content types to explore</li>
+            </ul>
+        </div>
+        <div class="cta__shape">
+            <div class="shape shape--1" data-parallax='{"y" : 80}'>
+                <img src="{{ asset('frontend/assets/img/shape/cta_shape1.png') }}" alt="">
+            </div>
+            <div class="shape shape--2" data-parallax='{"x" : 80}'>
+                <img src="{{ asset('frontend/assets/img/shape/cta_shape2.png') }}" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- cta end -->
+
+    <!-- instagram start -->
+    <section class="instagram">
+        <div class="container">
+            <div class="row instagram__wrap">
+                <div class="col-lg-9 col-md-8">
+                    <div class="instagram__slide swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="instagram__item swiper-slide">
+                                <img src="{{ asset('frontend/assets/img/instagram/img_01.jpg') }}" alt="">
+                            </div>
+                            <div class="instagram__item swiper-slide">
+                                <img src="{{ asset('frontend/assets/img/instagram/img_02.jpg') }}" alt="">
+                            </div>
+                            <div class="instagram__item swiper-slide">
+                                <img src="{{ asset('frontend/assets/img/instagram/img_03.jpg') }}" alt="">
+                            </div>
+                            <div class="instagram__item swiper-slide">
+                                <img src="{{ asset('frontend/assets/img/instagram/img_04.jpg') }}" alt="">
+                            </div>
+                            <div class="instagram__item swiper-slide">
+                                <img src="{{ asset('frontend/assets/img/instagram/img_05.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="instagram__content">
+                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                        <h3>Join our Instagram community!</h3>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- instagram end -->
+@endsection
 {{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
