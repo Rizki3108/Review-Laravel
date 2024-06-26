@@ -34,5 +34,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', IsAdmin::class]], fu
 });
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth', IsAdmin::class]], function () {
-    Route::resource('user', UserController::class)->middleware(IsAdmin::class);
+    Route::resource('user', UserController::class);
 });
